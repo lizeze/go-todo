@@ -1,0 +1,21 @@
+.container .todo-list .item {
+
+    border: 1px solid #d6d6d6;
+    padding: 6px;
+}
+
+.container .todo-list .item input {
+    display: block;
+}
+.container .todo-list .item span {
+    display: none;
+}
+.container .todo-list .item.read-only input {
+
+    display: none;
+}
+
+.container .todo-list .item.read-only span {
+
+    display: block;
+}
